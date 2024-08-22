@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enhanced HTML Layout</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+      }
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 1rem;
+        text-align: center;
+      }
+      nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+      }
+      nav ul li {
+        display: inline;
+        margin: 0 1rem;
+      }
+      nav ul li a {
+        color: #fff;
+        text-decoration: none;
+      }
+      main {
+        display: flex;
+        justify-content: space-between;
+        padding: 2rem;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+      section {
+        flex: 3;
+        padding: 1rem;
+        background-color: #fff;
+        margin-right: 1rem;
+      }
+      article {
+        padding: 1rem;
+        background-color: #f9f9f9;
+        border: 1px solid #ddd;
+        margin-bottom: 1rem;
+      }
+      aside {
+        flex: 1;
+        padding: 1rem;
+        background-color: #f9f9f9;
+        border: 1px solid #ddd;
+      }
+      footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 1rem;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Deccan Chronicle</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>Main Content Area</h2>
+        <article>
+          <h3>Sports</h3>
+          <p style="background-color: rgb(38, 152, 152)">
+            India Test and ODI captain Rohit Sharma was named the Mens
+            International Cricketer of the Year, while former head coach Rahul
+            Dravid was conferred with the Lifetime Achievement Award at the CEAT
+            Cricket Rating Awards 2023-24 in Mumbai on Wednesday.
+          </p>
+        </article>
+        <article>
+          <h3>politics</h3>
+          <p>
+            Konidala Pawan Kalyan is an Indian politician, actor and
+            philanthropist, serving as the 10th Deputy Chief Minister of Andhra
+            Pradesh since June 2024.
+          </p>
+        </article>
+      </section>
+
+      <aside>
+        <h2>Sidebar</h2>
+        <p>
+          Here you can place additional information, links, or advertisements
+          relevant to the main content.
+        </p>
+      </aside>
+    </main>
+
+    <footer>
+      <p>&copy; Deccan Chronicle 2024. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
